@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#main-header{
+    background-color: #303030;
+    width: 1440px;
+    height: 100px;
+    box-sizing: border-box;
+}
+.logo{
+    width: 20%;
+    height: auto;
+}
+.logo img{
+padding-top: 17px;
+padding-left: 75px;
+}
+/*-------------------links-------------------*/
+
+.links{
+    width: 60%;
+    float: right;
+    margin-top: -62px;
+    }
+.links ul{
+  display: block;
+  box-sizing: border-box;
+  clear: both;
+    }
+.links ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+.links ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+
+}
+/*----------------search-------------------*/
+.search-bar{
+    width: 15%;
+    float: right;
+    margin-top: -60px;
+} 
+
+/*-----------------------------------------TITLE_AREA-------------------------------------------------*/
+#title-Area{
+    width: 1438px;
+    height: 690px;
+    background-image: url(images/background\ image.png);
+}
+
+.title{
+    padding-left: 70px;
+    padding-top: 315px;
+}
+
+.title h1{
+    color: white;
+    font-size: 50px;
+}
+.title p{
+    color: white;
+}
+
+.btn{
+    background-color: #e8631c;
+    color: white;
+    border: #e8631c;
+    padding: 10px;
+}
+
+/*-----------------------------------DANCE AREA-----------------------------------------*/
+#dance-container{
+    width: 1440px;
+    height: 966px;
+    background-image: url(images/Shape.png);
+}
+.dance-row1{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+
+}
+.dance-row1 h1{
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.dance-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.d-img{
+    padding-left: 60px;
+}
+.text{
+    width: 373px;
+    height: 170px;
+     display: block;
+      background-color: #303030;
+     color: white;
+      margin-top: -24px;
+ 
+}
+.text h1{
+    text-align: center;
+    padding-top: 30px;}
+.text p{
+    text-align: center;
+}
+/*------------------price container--------------------------*/
+#pricing-container{
+ width: 1440px;
+ height: 960px;
+ background-image: url(images/pricing.png);
+}
+.price-row1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.ice-row1 h1{
+ font-size: 28px;
+ font-weight: bold;
+}
+.price-grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+
+}
+
+.icon-back{
+    width: 375px;
+    height: 494px;
+    background-image: url(images/icon\ background.png);
+    margin-left: 60px;
+    margin-top: 50px;
+    text-align: center;
+}
+.icon-back img{
+   padding-top: 60px;
+}
+.icon-back h1{
+    padding-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.icon-back p{
+    color:white ;
+}
+
+.bttn{
+    margin-top: 20px;
+    padding: 15px 100px;
+    background-color: #303030;
+    color: white;
+    font-weight: bold;
+}
+
+/*----------------------------------PICS AREA----------------------------------*/
+#pics-container{
+    width: 1440px;
+    height: 956px;
+}
+.pic-row1{
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+.pic-col{
+
+}
+.pic-col2{
+    background-image: url(images/pic\ col.png);
+    text-align: center;
+    padding-top: 325px;
+    color: white;
+    
+}
+
+.pic-col2 h1{
+    font-size: 28px;
+ font-weight: bold;
+}
+ .read-button{
+    padding: 12px 30px;
+    background-color: #303030;
+    color: white;
+    margin-top: 10px;
+}
+
+.pic-row2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.stat-column{
+    background-image: url(images/pic\ col.png);
+    text-align: center;
+    padding-top: 325px;
+    color: white;
+}
+.stat-column h1{
+    ont-size: 28px;
+    font-weight: bold;
+}
+
+/*------------------------STATISTICS---------------------------------------*/
+#stat{
+    width: 1440px;
+    height: 976px;
+    margin: auto;
+    background-image: url(images/Shape\ black.png);
+    box-sizing: border-box;
+    overflow: auto;
+    margin-top: 1011px;
+}
+.stat-row1{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+.stat-row2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.div-33{
+    margin-left: 130px;
+    color: white;
+    margin-top: 50px;
+}
+
+.div-33 h1{
+    margin-top: 200px;
+}
+
+/*------------------------------------SUBSCRIBE AREA---------------------*/
+.subscribe{
+    height: 596px;
+    width: 1440px;
+    background-image: url(images/Shape\ subscribe.png);
+    text-align: center;
+    padding-top: 140px;
+    color: white;
+}
+
+.subscribe-butn{
+    padding-top: 50px;
+}
+.subscribe-butn input{
+    padding: 20px 100px;
+}
+.subscribe-butn button{
+    padding: 20px 35px;
+    background-color: #303030;
+    font-size:medium;
+    color: white;
+    
+}
+
+/*---------------------------------footer-------------------------------------------*/
+#footer-section{
+    width: 1440px;
+    height: 478px;
+    background-image: url(images/Shape\ footer.png);
+}
+.footer-r1{
+    display: grid;
+    grid-template-columns:25% 22% 22% 22%;
+    padding-left: 80px;
+    padding-top: 121px;
+}
+.div-r h1{
+   color: white;
+}
+.div-r p{
+    color: white;
+}
+.div-r ul li {
+    color: white;
+}
